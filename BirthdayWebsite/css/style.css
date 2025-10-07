@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Happy Monkey";
+}
+.hero{
+    background-image: url("../img/tlaltenco.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(18, 87, 172);
+}
+#photo{
+    max-width: 170px;
+}
+#title-hero, #subtitle-hero{
+    background-color: rgb(39, 109, 184);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+#subtitle-hero{
+    background-color: rgb(8, 59, 104);
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(81, 137, 118);
+}
+.activities{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#act1, #act2, #act3{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgAct{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.cnt{
+    display: flex;
+    justify-content: center;
+}
+#containerGuide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px;
+    background-color: rgb(101, 187, 187);
+    border-bottom: 7px solid rgb(14, 81, 175);
+    padding: 20px;
+    max-width: 500px;
+}
+#infoGuide{
+    margin: 0 0 0 40px;
+}
+
+@media (max-width: 768px) {
+    .activities {
+        flex-direction: column;
+    }
+    #containerGuide {
+        flex-direction: column;
+    }
+}
