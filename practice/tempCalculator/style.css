@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom left, rgb(92, 215, 92), #5ed7bd);
+    color: rgb(93, 163, 206);
+}
+.container{
+    background-color: #9ae0d1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+.celsius, .fahrenheit, .kelvin{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+input{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}

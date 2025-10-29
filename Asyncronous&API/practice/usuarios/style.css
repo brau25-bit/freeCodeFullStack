@@ -1,0 +1,34 @@
+body, html{
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.usuarios{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+    height: 220px;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+h1{
+    text-align: center;
+    color: rgb(47, 47, 190);
+    text-shadow: 5px 5px 5px black;
+}
